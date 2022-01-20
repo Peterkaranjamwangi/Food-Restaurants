@@ -8,7 +8,7 @@
       </p>
       <br />
       <v-row dense>
-        <v-col cols="12" md="4" v-for="card in collections" :key="card.title">
+        <v-col cols="12" md="3" v-for="card in collections" :key="card.title">
           <v-card router :to="card.route">
             <v-img
               :src="card.src"
@@ -38,20 +38,26 @@ export default {
   data: () => ({
     collections: [
       {
-        title: "Pre-fab homes",
+        title: "Most Searched of 2022",
         src: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         flex: 12,
         route: "/about",
       },
       {
-        title: "Favorite road trips",
+        title: "Best Openings of 2022",
         src: "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTZ8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
         flex: 12,
         route: "/about",
       },
       {
-        title: "Best airlines",
+        title: "Trending This Week",
         src: "https://images.unsplash.com/photo-1529042410759-befb1204b468?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTd8fGZvb2R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        flex: 12,
+        route: "/about",
+      },
+      {
+        title: "Best Of New York",
+        src: "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZCUyMGFuZCUyMGRyaW5rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         flex: 12,
         route: "/about",
       },

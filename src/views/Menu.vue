@@ -1,17 +1,21 @@
 <template>
   <div class="Menu">
-    <products />
+    <menu-image />
+    <Order />
   </div>
 </template>
 
 <script>
-import Products from "../components/Products.vue";
+import MenuImage from "../components/MenuImage.vue";
+import Order from "../components/Order.vue";
+
 // @ is an alias to /src
 
 export default {
   name: "Menu",
   components: {
-    Products,
+    Order,
+    MenuImage,
   },
 };
 </script>
