@@ -4,7 +4,7 @@
     <v-spacer></v-spacer>
     <br />
     <v-row dense justify="space-around">
-      <v-col v-for="card in cards" :key="card.name" cols="12" md="2">
+      <v-col v-for="card in cards" :key="card.name" cols="12" sm="4" md="2">
         <div
           class="v-avatar mb-4"
           style="height: 150px; min-width: 150px; width: 150px"
@@ -15,7 +15,9 @@
           <br />
           <a href="/resturant/FoodMenu" class="text-decoration-none">
             <v-text
-              style="height: 150px; min-width: 150px; width: 150px align-center"
+              style="height: 150px; min-width: 150px; width: 150px"
+              justify="center"
+              align="center"
               v-text="card.name"
             >
             </v-text>

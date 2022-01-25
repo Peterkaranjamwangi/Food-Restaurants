@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="mt-4 col col-12" py-15 pd>
+  <v-template py-15>
+    <div class="mt-4 py-15 col col-12">
       <div class="d-flex justify-space-between flex-wrap align-center mb-3">
         <h1 class="me-2">Starbucks</h1>
         <div class="mb-3">
@@ -53,7 +53,7 @@
         ></i>
         The Dorothy Ross Friedman Residence, NY, US -
         <a
-          href="/resturant/FoodMenu"
+          href="../Menu"
           aria-current="page"
           class="grey--text text--darken-3 nuxt-link-exact-active nuxt-link-active"
           >Show Map</a
@@ -85,7 +85,7 @@
         >
       </div>
     </div>
-  </div>
+  </v-template>
 </template>
 
 <script>

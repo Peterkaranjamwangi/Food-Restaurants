@@ -8,7 +8,13 @@
       </p>
       <br />
       <v-row dense>
-        <v-col cols="12" md="3" v-for="card in collections" :key="card.title">
+        <v-col
+          cols="12"
+          sm="6"
+          md="3"
+          v-for="card in collections"
+          :key="card.title"
+        >
           <v-card router :to="card.route">
             <v-img
               :src="card.src"

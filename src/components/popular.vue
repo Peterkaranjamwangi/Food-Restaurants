@@ -4,7 +4,7 @@
       <h1>Popular Near You</h1>
       <br />
       <v-row dense>
-        <v-col v-for="card in popular" :key="card.title" cols="12" md="4">
+        <v-col v-for="card in popular" :key="card.title" cols="12" sm="6" md="4">
           <v-card>
             <v-img
               :src="card.src"

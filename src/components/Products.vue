@@ -2,7 +2,7 @@
   <div>
     <v-container py-15 pd>
       <v-row dense>
-        <v-col v-for="card in cards" :key="card.title" cols="12" md="3">
+        <v-col v-for="card in cards" :key="card.title" cols="12" sm="6" md="3">
           <v-card>
             <v-img
               :src="card.src"

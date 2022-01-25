@@ -1,5 +1,5 @@
 <template>
-  <div class="Menu">
+  <div class="Menu" py-15 pd>
     <menu-image />
     <menudetails />
     <Order />
