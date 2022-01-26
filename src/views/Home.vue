@@ -1,10 +1,9 @@
 <template>
   <div class="home">
     <products />
-    <cuisine />
     <collections />
+    <cuisine />
     <popular />
-    
   </div>
 </template>
 
