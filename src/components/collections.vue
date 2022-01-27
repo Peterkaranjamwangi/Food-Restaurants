@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <v-container py-15>
+  <div class="grey lighten-3">
+    <v-container py-15 >
       <h1>Collections</h1>
       <p>
         Explore curated lists of top restaurants, cafes, pubs, and bars in New

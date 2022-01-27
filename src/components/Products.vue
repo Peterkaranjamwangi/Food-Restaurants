@@ -3,18 +3,20 @@
     <v-container py-15 pd>
       <v-row dense>
         <v-col v-for="card in cards" :key="card.title" cols="12" sm="6" md="3">
-          <v-card>
-            <v-img
-              :src="card.src"
-              class="white--text align-end"
-              gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
-              height="200px"
-            >
-            </v-img>
-            <v-card-actions class="pa-4">
-              <v-card-title v-text="card.title"></v-card-title>
-            </v-card-actions>
-          </v-card>
+          <a href="" class="text-decoration-none">
+            <v-card>
+              <v-img
+                :src="card.src"
+                class="white--text align-end"
+                gradient="to bottom, rgba(0,0,0,.1), rgba(0,0,0,.5)"
+                height="200px"
+              >
+              </v-img>
+              <v-card-actions class="pa-4">
+                <v-card-title v-text="card.title"></v-card-title>
+              </v-card-actions>
+            </v-card>
+          </a>
         </v-col>
       </v-row>
     </v-container>

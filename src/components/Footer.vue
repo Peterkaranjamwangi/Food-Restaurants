@@ -10,7 +10,10 @@
                 class="v-avatar mb-6 rounded-0"
                 style="height: 48px; min-width: 48px; width: 48px"
               >
-                <img src="/_nuxt/img/logo.4a3964e.png" alt="" />
+                <img
+                  src="https://images.unsplash.com/photo-1567446537708-ac4aa75c9c28?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bG9nb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                  alt=""
+                />
               </div>
               <h5 class="mb-6 font-weight-regular footer-color">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
@@ -22,13 +25,19 @@
                   class="v-avatar me-4 rounded-0"
                   style="height: 45px; min-width: 48px; width: 120px"
                 >
-                  <img src="/_nuxt/img/google-play.430ca54.png" alt="" />
+                  <img
+                    src="https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0"
+                    alt=""
+                  />
                 </div>
                 <div
                   class="v-avatar rounded-0"
                   style="height: 45px; min-width: 48px; width: 120px"
                 >
-                  <img src="/_nuxt/img/app-store.63e3986.png" alt="" />
+                  <img
+                    src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -130,7 +139,7 @@
                     <span class="v-btn__content"
                       ><i
                         aria-hidden="true"
-                        class="v-icon notranslate mdi mdi-facebook theme--dark"
+                        class="v-icon notranslate mdi mdi-facebook theme--dark secondary"
                       ></i
                     ></span>
                   </button>
@@ -184,6 +193,17 @@
           </div>
         </div>
       </footer>
+      <button
+        type="button"
+        class="v-btn v-btn--bottom v-btn--is-elevated v-btn--fab v-btn--fixed v-btn--has-bg v-btn--right v-btn--round theme--dark v-size--small primary d-block"
+      >
+        <span class="navbar"
+          ><i
+            aria-hidden="true"
+            class="v-icon notranslate mdi mdi-chevron-up theme--dark"
+          ></i
+        ></span>
+      </button>
     </div>
   </div>
 </template>

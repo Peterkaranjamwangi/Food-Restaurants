@@ -1,7 +1,7 @@
 <template>
   <div class="grey lighten-3">
-    <v-container >
-      <h1>Popular Near You</h1>
+    <v-container>
+      <h1>184 Delivery Restaurants in New York</h1>
       <br />
       <v-row dense>
         <v-col
@@ -51,8 +51,11 @@
                   </div>
                 </div>
                 <p class="px-4 grey--text text--darken-1">
-                  <span class="primary--text f-600 me-1"  v-text="card.price"></span> • Cofee, set
-                  menu • 15 - 20 min
+                  <span
+                    class="primary--text f-600 me-1"
+                    v-text="card.price"
+                  ></span>
+                  • Cofee, set menu • 15 - 20 min
                 </p>
               </div>
             </v-card></a
@@ -69,7 +72,7 @@ export default {
     rating: 4.3,
     popular: [
       {
-        title: "Risotto ",
+        title: "Starbucks",
         src: "https://images.unsplash.com/photo-1532634922-8fe0b757fb13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8Zm9vZCUyMGFuZCUyMGRyaW5rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         rating: 4.3,
         info: " • Cofee, set menu • 15 - 20 min ",
@@ -77,7 +80,7 @@ export default {
         flex: 12,
       },
       {
-        title: "Pasta",
+        title: "Bonefish Grill",
         src: "https://images.unsplash.com/photo-1543353071-087092ec393a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Zm9vZCUyMGFuZCUyMGRyaW5rfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         rating: 4.6,
         info: " • Cofee, set menu • 15 - 20 min ",
@@ -93,7 +96,7 @@ export default {
         flex: 12,
       },
       {
-        title: "Lasagne",
+        title: " O'Charley's",
         src: "https://media.istockphoto.com/photos/food-with-high-content-of-omega3-fats-picture-id1301412050?b=1&k=20&m=1301412050&s=170667a&w=0&h=nViB9ZIwyVRLPD5s123i48XNq_MNUvdBtX3IzAHnqec=",
         rating: 4.6,
         info: " • Cofee, set menu • 15 - 20 min ",
@@ -101,7 +104,7 @@ export default {
         flex: 12,
       },
       {
-        title: "Tiramisù",
+        title: "Yard House",
         src: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         rating: 4.4,
         info: " • Cofee, set menu • 15 - 20 min ",
@@ -109,7 +112,7 @@ export default {
         flex: 12,
       },
       {
-        title: "Sardine in Saor",
+        title: "Maggiano's Little Italy",
         src: "https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9vZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         rating: 4.5,
         info: " • Cofee, set menu • 15 - 20 min ",

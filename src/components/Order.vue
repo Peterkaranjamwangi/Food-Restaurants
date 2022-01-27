@@ -1,7 +1,7 @@
 <template>
   <v-container py-15>
     <div>
-      <v-tabs>
+      <v-tabs align-left>
         <v-tab
           v-for="(item, index) in items"
           :class="{ active: currentTab === index }"

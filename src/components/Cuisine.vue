@@ -6,7 +6,7 @@
     <div>
       <v-row dense justify="space-around">
         <div v-for="card in cards" :key="card.name" cols="12" sm="4" md="2">
-          <div class="text-center, pb-10, mb-auto" >
+          <div class="text-center, pb-10, mb-12" >
             <a href="/resturant/FoodMenu" class="text-decoration-none"
               ><div
                 class="v-avatar mb-4"

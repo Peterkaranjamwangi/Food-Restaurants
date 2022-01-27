@@ -112,13 +112,19 @@
                 class="v-avatar me-4 rounded-0"
                 style="height: 50px; min-width: 48px; width: 150px"
               >
-                <img src="/_nuxt/img/google-play.430ca54.png" alt="" />
+                <img
+                  src="https://lh3.googleusercontent.com/cjsqrWQKJQp9RFO7-hJ9AfpKzbUb_Y84vXfjlP0iRHBvladwAfXih984olktDhPnFqyZ0nu9A5jvFwOEQPXzv7hr3ce3QVsLN8kQ2Ao=s0"
+                  alt=""
+                />
               </div>
               <div
                 class="v-avatar rounded-0"
                 style="height: 50px; min-width: 48px; width: 150px"
               >
-                <img src="/_nuxt/img/app-store.63e3986.png" alt="" />
+                <img
+                  src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg"
+                  alt=""
+                />
               </div>
             </div>
           </div>

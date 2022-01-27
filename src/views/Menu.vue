@@ -1,8 +1,11 @@
 <template>
-  <div class="Menu" py-15 pd>
-    <menu-image />
-    <menudetails />
-    <Order />
+  <div class="menu">
+    <div py-5>
+      <menu-image />
+      <menudetails />
+    </div>
+
+    <order />
   </div>
 </template>
 
@@ -16,9 +19,9 @@ import Order from "../components/Order.vue";
 export default {
   name: "Menu",
   components: {
-    Order,
     MenuImage,
     Menudetails,
+    Order,
   },
 };
 </script>
