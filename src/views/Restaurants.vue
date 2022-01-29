@@ -1,10 +1,30 @@
 <template>
-  <div class="restaurant">
-    <div py-5>
-      <constraints />
-      <popular-restaurants />
+  <v-container py-16>
+    <div class="restaurant">
+      <div>
+        <template>
+          <div>
+            <v-breadcrumbs :items="items">
+              <template v-slot:divider>
+                <v-icon>mdi-chevron-right</v-icon>
+              </template>
+            </v-breadcrumbs>
+          </div>
+        </template>
+      </div>
+      <div py-16>
+        <v-tabs>
+          <v-tab>Delivery</v-tab>
+          <v-tab>Eating Out</v-tab>
+          <v-tab>Night Out</v-tab>
+        </v-tabs>
+      </div>
+      <div py-5>
+        <constraints />
+        <popular-restaurants />
+      </div>
     </div>
-  </div>
+  </v-container>
 </template>
 
 <script>
@@ -14,6 +34,20 @@ import PopularRestaurants from "../components/popularRestaurants.vue";
 // @ is an alias to /src
 
 export default {
+  data: () => ({
+    items: [
+      {
+        text: "Home",
+        disabled: false,
+        href: "./home",
+      },
+      {
+        text: "Restaurants",
+        disabled: true,
+        href: "./restaurants",
+      },
+    ],
+  }),
   name: "Restaurant",
   components: {
     PopularRestaurants,

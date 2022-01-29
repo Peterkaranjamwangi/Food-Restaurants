@@ -25,70 +25,22 @@
             <p class="text-18 grey--text text--darken-1 mb-0">
               We will send you a link, open it on your phone to download the app
             </p>
-            <div
-              class="v-input mb-4 v-input--hide-details theme--light v-input--selection-controls v-input--radio-group v-input--radio-group--row"
-            >
-              <div class="v-input__control">
-                <div class="v-input__slot" style="height: auto">
-                  <div
-                    role="radiogroup"
-                    aria-labelledby="input-1887"
-                    class="v-input--radio-group__input"
-                  >
-                    <div class="v-radio theme--light">
-                      <div class="v-input--selection-controls__input">
-                        <i
-                          aria-hidden="true"
-                          class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
-                        ></i
-                        ><input
-                          aria-checked="false"
-                          id="input-255"
-                          role="radio"
-                          type="radio"
-                          name="radio-254"
-                          value="radio-1"
-                        />
-                        <div class="v-input--selection-controls__ripple"></div>
-                      </div>
-                      <label
-                        for="input-255"
-                        class="v-label theme--light"
-                        style="left: 0; right: auto; position: relative"
-                        >Email</label
-                      >
-                    </div>
-                    <div class="v-radio theme--light">
-                      <div class="v-input--selection-controls__input">
-                        <i
-                          aria-hidden="true"
-                          class="v-icon notranslate mdi mdi-radiobox-blank theme--light"
-                        ></i
-                        ><input
-                          aria-checked="false"
-                          id="input-257"
-                          role="radio"
-                          type="radio"
-                          name="radio-254"
-                          value="radio-2"
-                        />
-                        <div class="v-input--selection-controls__ripple"></div>
-                      </div>
-                      <label
-                        for="input-257"
-                        class="v-label theme--light"
-                        style="left: 0; right: auto; position: relative"
-                        >Phone</label
-                      >
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div>
+              <v-row>
+                <v-col xm="6" sm="3" md="3">
+                  <v-radio-group column>
+                    <v-radio label="Email" value="Email"></v-radio>
+                  </v-radio-group>
+                </v-col>
+                <v-col xm="6" sm="3" md="3">
+                  <v-radio-group column>
+                    <v-radio label="Phone" value="Phone"></v-radio>
+                  </v-radio-group>
+                </v-col>
+              </v-row>
             </div>
             <div class="d-flex align-center mb-8">
-              <div
-                class="v-input rounded-r-0 border-r-n-grey v-input--hide-details v-input--dense theme--light v-text-field v-text-field--single-line v-text-field--solo v-text-field--solo-flat v-text-field--is-booted v-text-field--enclosed v-text-field--placeholder"
-              >
+              <div class="v-input rounded outlined v-text-field--placeholder">
                 <div class="v-input__control">
                   <div class="v-input__slot">
                     <div class="v-text-field__slot">
@@ -99,7 +51,7 @@
               </div>
               <button
                 type="button"
-                class="rounded-l-0 py-5 v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default primary"
+                class="rounded-l-0 py-5 v-btn v-size--default primary"
               >
                 <span class="v-btn__content"> Search </span>
               </button>
@@ -133,198 +85,32 @@
     </div>
 
     <div class="py-16">
+      <v-container>
+        <h2 class="mb-5">Popular Localities In &amp; Around New York</h2>
+        <v-row>
+          <v-col xm="6" sm="3" md="3"> </v-col>
+          <v-col xm="6" sm="3" md="3"> </v-col>
+          <v-col xm="6" sm="3" md="3"> </v-col>
+          <v-col xm="6" sm="3" md="3"> </v-col>
+        </v-row>
+      </v-container>
+
       <div class="container">
         <div class="row">
           <div class="col-xl-12 col">
             <h2 class="mb-5">Popular Localities In &amp; Around New York</h2>
             <div class="row">
-              <div class="mb-3 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12">
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Newport
-                    <span class="grey--text">(26 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Brooklyn
-                    <span class="grey--text">(14 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Chinatown
-                    <span class="grey--text">(10 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Chelsea
-                    <span class="grey--text">(20 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Coney Island
-                    <span class="grey--text">(6 places)</span></a
-                  >
-                </div>
-              </div>
-              <div class="mb-3 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12">
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Newport
-                    <span class="grey--text">(26 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Brooklyn
-                    <span class="grey--text">(14 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Chinatown
-                    <span class="grey--text">(10 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Chelsea
-                    <span class="grey--text">(20 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Coney Island
-                    <span class="grey--text">(6 places)</span></a
-                  >
-                </div>
-              </div>
-              <div class="mb-3 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12">
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Newport
-                    <span class="grey--text">(26 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Brooklyn
-                    <span class="grey--text">(14 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Chinatown
-                    <span class="grey--text">(10 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Chelsea
-                    <span class="grey--text">(20 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Coney Island
-                    <span class="grey--text">(6 places)</span></a
-                  >
-                </div>
-              </div>
-              <div class="mb-3 col-sm-6 col-md-6 col-lg-3 col-xl-3 col-12">
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Newport
-                    <span class="grey--text">(26 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Brooklyn
-                    <span class="grey--text">(14 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Chinatown
-                    <span class="grey--text">(10 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Chelsea
-                    <span class="grey--text">(20 places)</span></a
-                  >
-                </div>
-                <div class="mb-3">
-                  <a
-                    href="/resturant/ResturantTwoColumn"
-                    class="text-decoration-none black--text"
-                  >
-                    Coney Island
-                    <span class="grey--text">(6 places)</span></a
-                  >
-                </div>
+              <div
+                class="mb-3 col-sm-6 col-md-6 col-xm-3 col-lg-3 col-xl-3 col-12"
+                v-for="link in links"
+                :key="link.title"
+                router
+                :to="link.route"
+              >
+                <a href="/resturant" class="text-decoration-none black--text"
+                  >{{ link.title }}
+                  <span class="grey--text">{{ link.places }}</span></a
+                >
               </div>
             </div>
           </div>
@@ -336,6 +122,45 @@
 
 <script>
 export default {
-  data: () => ({}),
+  data: () => ({
+    links: [
+      { title: "Manhattan", places: "(16 places)", route: "/resturant" },
+      { title: "Queens", places: "(36 places)", route: "/resturant" },
+      { title: "Brooklyn", places: "(12 places)", route: "/resturant" },
+      { title: "Staten Island", places: "(26 places)", route: "/resturant" },
+      {
+        title: " Saratoga Springs",
+        places: "(4 places)",
+        route: "/resturant",
+      },
+      { title: " Rochester", places: "(6 places)", route: "/resturant" },
+      { title: "Syracuse", places: "(10 places)", route: "/resturant" },
+      { title: "Rome", places: "(8 places)", route: "/resturant" },
+      { title: "Manhattan", places: "(16 places)", route: "/resturant" },
+      { title: "Queens", places: "(36 places)", route: "/resturant" },
+      { title: "Brooklyn", places: "(12 places)", route: "/resturant" },
+      { title: "Staten Island", places: "(26 places)", route: "/resturant" },
+      {
+        title: " Saratoga Springs",
+        places: "(4 places)",
+        route: "/resturant",
+      },
+      { title: " Rochester", places: "(6 places)", route: "/resturant" },
+      { title: "Syracuse", places: "(10 places)", route: "/resturant" },
+      { title: "Rome", places: "(8 places)", route: "/resturant" },
+      { title: "Manhattan", places: "(16 places)", route: "/resturant" },
+      { title: "Queens", places: "(36 places)", route: "/resturant" },
+      { title: "Brooklyn", places: "(12 places)", route: "/resturant" },
+      { title: "Staten Island", places: "(26 places)", route: "/resturant" },
+      {
+        title: " Saratoga Springs",
+        places: "(4 places)",
+        route: "/resturant",
+      },
+      { title: " Rochester", places: "(6 places)", route: "/resturant" },
+      { title: "Syracuse", places: "(10 places)", route: "/resturant" },
+      { title: "Rome", places: "(8 places)", route: "/resturant" },
+    ],
+  }),
 };
 </script>
