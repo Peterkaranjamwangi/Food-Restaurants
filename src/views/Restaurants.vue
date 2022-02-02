@@ -18,6 +18,17 @@
           <v-tab>Eating Out</v-tab>
           <v-tab>Night Out</v-tab>
         </v-tabs>
+        <v-tabs>
+          <v-spacer></v-spacer>
+          <div class="float-right">
+            <button
+              type="button"
+              class="mb-3 v-btn v-btn-elevated v-btn-bg light v-size--default primary"
+            >
+              <span class="v-btn__content">Filter</span>
+            </button>
+          </div>
+        </v-tabs>
       </div>
       <div py-5>
         <constraints />

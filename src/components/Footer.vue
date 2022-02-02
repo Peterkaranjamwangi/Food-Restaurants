@@ -15,7 +15,7 @@
                   alt=""
                 />
               </div>
-              <h5 class="mb-6 font-weight-regular footer-color">
+              <h5 class="mb-6 font-weight-regular font-size-24 footer-color">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
                 libero id et, in gravida. Sit diam duis mauris nulla cursus.
                 Erat et lectus vel ut sollicitudin elit at amet.
@@ -124,10 +124,6 @@
             <div class="col-md-6 col-lg-3 col-12">
               <h2 class="f-600 mb-4">Contact Us</h2>
               <div class="d-flex flex-column">
-                <p class="mb-3 footer-color">
-                  Jalalabad 20/1, Shah Farid Road Sylhet, Bangladesh. Email:
-                  uilib@gmail.com Phone: +880 1123 456 780
-                </p>
                 <p class="mb-3 footer-color">Sylhet, Bangladesh.</p>
                 <p class="mb-3 footer-color">Email: uilib@gmail.com</p>
                 <p class="mb-6 footer-color">Phone: +880 1123 456 780</p>
@@ -193,17 +189,6 @@
           </div>
         </div>
       </footer>
-      <button
-        type="button"
-        class="v-btn v-btn--bottom v-btn--is-elevated v-btn--fab v-btn--fixed v-btn--has-bg v-btn--right v-btn--round theme--dark v-size--small primary d-block"
-      >
-        <span class="navbar"
-          ><i
-            aria-hidden="true"
-            class="v-icon notranslate mdi mdi-chevron-up theme--dark"
-          ></i
-        ></span>
-      </button>
     </div>
   </div>
 </template>
@@ -217,3 +202,5 @@ export default {
   },
 };
 </script>
+
+<style></style>

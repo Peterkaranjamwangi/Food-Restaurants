@@ -41,13 +41,11 @@
             </div>
             <div class="d-flex align-center mb-8">
               <div class="v-input rounded outlined v-text-field--placeholder">
-                <div class="v-input__control">
-                  <div class="v-input__slot">
-                    <div class="v-text-field__slot">
-                      <input id="input-259" placeholder="Email" type="text" />
-                    </div>
-                  </div>
-                </div>
+                <v-text-field
+                  label="Email"
+                  placeholder="email"
+                  outlined
+                ></v-text-field>
               </div>
               <button
                 type="button"
@@ -85,20 +83,11 @@
     </div>
 
     <div class="py-16">
-      <v-container>
-        <h2 class="mb-5">Popular Localities In &amp; Around New York</h2>
-        <v-row>
-          <v-col xm="6" sm="3" md="3"> </v-col>
-          <v-col xm="6" sm="3" md="3"> </v-col>
-          <v-col xm="6" sm="3" md="3"> </v-col>
-          <v-col xm="6" sm="3" md="3"> </v-col>
-        </v-row>
-      </v-container>
-
       <div class="container">
         <div class="row">
           <div class="col-xl-12 col">
             <h2 class="mb-5">Popular Localities In &amp; Around New York</h2>
+            <br />
             <div class="row">
               <div
                 class="mb-3 col-sm-6 col-md-6 col-xm-3 col-lg-3 col-xl-3 col-12"
@@ -107,7 +96,7 @@
                 router
                 :to="link.route"
               >
-                <a href="/resturant" class="text-decoration-none black--text"
+                <a href="/restaurants" class="text-decoration-none black--text"
                   >{{ link.title }}
                   <span class="grey--text">{{ link.places }}</span></a
                 >

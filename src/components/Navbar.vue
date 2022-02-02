@@ -2,34 +2,27 @@
   <div>
     <v-app-bar
       app
-      color="#43a047"
       dark
       shrink-on-scroll
-      prominentsrc="https://picsum.photos/1920/1080?random"
-      fade-img-on-scroll
-      scroll-threshold="500"
+      prominent
+      src="https://images.unsplash.com/photo-1525151498231-bc059cfafa2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     >
-      <v-toolbar-title>Application</v-toolbar-title>
-      <template v-slot:img="{ props }">
-        <v-img
-          v-bind="props"
-          gradient="to top right, rgba(55,236,186,.7), rgba(25,32,72,.7)"
-        ></v-img>
-      </template>
-
+      <v-toolbar-title>FoodHub</v-toolbar-title>
       <v-spacer></v-spacer>
-      <div>
+      <v-toolbar-title>
+        <v-btn dark
+          ><v-icon>mdi-account-circle</v-icon
+          ><span class="hidden-sm-and-down">Account</span>
+        </v-btn>
+
         <v-app-bar-nav-icon @click="drawermob = !drawermob"
-          ><v-icon>mdi-dots-grid</v-icon></v-app-bar-nav-icon
+          ><v-icon>mdi-cart-outline</v-icon>(9)</v-app-bar-nav-icon
         >
-      </div>
+        <v-app-bar-nav-icon
+          @click="drawermob = !drawermob"
+        ></v-app-bar-nav-icon>
+      </v-toolbar-title>
     </v-app-bar>
-    <v-sheet
-      id="scrolling-techniques-5"
-      class="overflow-y-auto"
-      max-height="600"
-    >
-    </v-sheet>
 
     <v-navigation-drawer
       app
@@ -67,15 +60,14 @@
 export default {
   data: () => ({
     drawermob: false,
-
     bar: [
-      { title: "Dashboard", icon: "mdi-view-dashboard", route: "/dashboard" },
-      { title: "Photos", icon: "mdi-image", route: "/photos" },
-      { title: "About", icon: "mdi-help-box", route: "/about" },
-      { title: "Received", icon: "mdi-email-receive", route: "/received" },
-      { title: "Sent", icon: "mdi-send", route: "/sent" },
-      { title: "Trash", icon: "mdi-delete", route: "/trash" },
-      { title: "Span", icon: "mdi-alert-octagon", route: "/span" },
+      { title: "Dashboard", route: "/dashboard" },
+      { title: "Photos", route: "/photos" },
+      { title: "About", route: "/about" },
+      { title: "Received", route: "/received" },
+      { title: "Sent", route: "/sent" },
+      { title: "Trash", route: "/trash" },
+      { title: "Span", route: "/span" },
     ],
   }),
 };
