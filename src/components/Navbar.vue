@@ -3,7 +3,6 @@
     <v-app-bar
       app
       dark
-      shrink-on-scroll
       prominent
       src="https://images.unsplash.com/photo-1525151498231-bc059cfafa2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8Zm9vZCUyMGRhcmt8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
     >
